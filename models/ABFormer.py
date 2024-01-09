@@ -329,7 +329,8 @@ if __name__ == "__main__":
 
     # y = segformer(x)
     # print(y.shape)
-    bcam = BCAM()
-    x = torch.randn(1, 4, 16, 16)
-    y = torch.randn(1, 4, 16, 16)
-    bcam(x, y)
+    # bcam = BCAM()
+    # x = torch.randn(1, 4, 16, 16)
+    # y = torch.randn(1, 4, 16, 16)
+    # bcam(x, y)
+    abformer = ABFormer()

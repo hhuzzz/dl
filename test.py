@@ -1,7 +1,10 @@
 from ViT import *
 from torchinfo import summary
+from torch.nn import Linear
 
 if __name__ == "__main__":
-    model = vit_base_patch16_224()
-    input = torch.randn(1, 3, 224, 224)
-    print(model(input).shape)
+    input = torch.randn(2, 3, dtype=float)
+    net = Linear(3, 4)
+    x = net(input)
+    for x, y in net.named_parameters():
+        print(x, y.dtype)
