@@ -1,4 +1,4 @@
-from ViT import *
+from models.ViT import *
 from torchinfo import summary
 from torch.nn import Linear
 
