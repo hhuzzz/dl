@@ -4,6 +4,7 @@
 + [金字塔池化](./modules/PPM.py)
 + [极化注意力机制](./modules/PSA.py)
 + [SCConv](./modules/SCConv.py)
++ [SimAM](./modules/SimAM.py)
 ### 上采样模块
   + [CARAFE](./modules/CARAFE.py)
   + [dysample](./modules/dysample.py)
