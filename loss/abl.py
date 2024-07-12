@@ -6,6 +6,7 @@ import numpy as np
 from scipy.ndimage import distance_transform_edt as distance
 # can find here: https://github.com/CoinCheung/pytorch-loss/blob/af876e43218694dc8599cc4711d9a5c5e043b1b2/label_smooth.py
 from label_smooth import LabelSmoothSoftmaxCEV1 as LSSCE
+from loss.label_smooth import LabelSmoothSoftmaxCEV1 as LSSCE
 from torchvision import transforms
 from functools import partial
 from operator import itemgetter
