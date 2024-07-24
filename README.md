@@ -6,6 +6,7 @@
 + [SCConv](./modules/feature_extract/SCConv.py)
 + [SimAM](./modules/feature_extract/SimAM.py)
 + [CBAM](./modules/feature_extract/CBAM.py)
++ [CSAM](./modules/feature_extract/CSAM.py)
 
 ### 特征融合模块
 + [CGAFusion](./modules/feature_fusion/CGAFusion.py)
